@@ -1,0 +1,637 @@
+@import url('http://fonts.cdnfonts.com/css/common-pixel');
+
+
+body{
+    background-image: url(img/backgrounweb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section{
+    overflow: hidden;
+}
+
+.homepage{
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+}
+ 
+/* Class */
+.topbar{
+    margin-left: 0;
+    width: 100%;
+    height: 15px;
+    z-index: 1000;
+}
+
+.topbar a{
+    color: #ffffff;
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: row;
+    transition:all 0.3s ease 0.2s;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.topleft{
+    position: absolute;
+    right: 0;
+    top: 20%;
+    padding: 20px 10px;
+    text-align: center;
+    cursor: context-menu;
+}
+.logo{
+    margin-left: 5%;
+    width: 80px;
+    height: 80px;
+}
+.lihome{
+    font-family: 'Common Pixel', sans-serif;
+    position: absolute;
+    top: -10%;
+    left: -8%;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #2d2d2d;
+    cursor: context-menu;
+}
+.topbar a:hover{
+    color: rgb(232, 116, 0);
+}
+
+
+.homepage h1{
+    color: rgb(174, 255, 0);
+    font-size: 75px;
+    font-family: 'Common Pixel', sans-serif;
+    text-shadow: 0px 10px #000000;
+    margin-left: 16%;
+}
+.homepage p{
+    color: #f1f1f1;
+    font-size: 30px;
+    margin-left: 20%;
+}
+.dowload{
+    font-family: 'Common Pixel', sans-serif;
+    position: relative;
+    text-align: center;
+    top: 120px;
+    margin-left: 70%;
+    padding: 10px 25px;
+    background-color: #2d2d2d;
+    color: #f1f1f1;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition:all 0.5s ease 0.2s;
+}
+.dowload:hover{
+    background-color: #ffffff;
+    color: #212121;
+}
+.scrolldown1{
+    width: 3em;
+    height: 3em; 
+    background-color: 
+    transparent; 
+    z-index: 80; 
+    bottom: 35px; 
+    position: absolute; 
+    border-width: 0 0.25em 0.25em 0; 
+    border-style: solid; 
+    border-color: rgb(0, 159, 238); 
+    animation: scrolldown 1.2s ease-in-out infinite 0.15s;
+}
+.scrolldown2{
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    z-index: 80; 
+    bottom: 50px;
+    position: absolute;
+    border-width: 0 0.25em 0.25em 0;
+    border-style: solid;
+    border-color: rgb(70, 230, 255);
+    animation: scrolldown 1.2s ease-in-out infinite;
+}
+.animationdown{
+    left: 10%;
+   transform: translateY(0%) rotate(45deg);
+   opacity: 0;
+}
+@keyframes scrolldown {
+            0%{
+                transform: translateY(20%) rotate(45deg);
+                opacity: 0.7;
+            }
+            50%{
+                transform: translateY(0%) rotate(45deg);
+                opacity: 0.2;
+            }
+            100%{
+                transform: translateY(20%) rotate(45deg);
+                opacity: 0.7;
+            }
+        }
+
+
+
+
+
+.intopage{
+    background:rgb(0, 0, 0,.8)
+}
+.intopage h2{
+    position: absolute;
+    color: #f1f1f1;
+    margin-left: 10%;
+    top: 8%;
+    font-size: 25px;
+    max-width: 80%;
+    text-align: center;
+    text-indent: 80px;
+}
+.intopage p{
+    position: absolute;
+    color: #f1f1f1;
+    margin-left: 10%;
+    top: 40%;
+    font-size: 30px;
+    max-width: 30%;
+    text-indent: 80px;
+}
+.intopage iframe{
+    position: absolute;
+    margin-left: 50%;
+    pointer-events: none;
+}
+.textgameplay{
+    position: absolute;
+    padding: 10px 30px;
+    color: #ffffff;
+    top: 52%;
+    left: 80%;
+    background-color: #c53500;
+}
+
+
+.Synopsispage{
+    margin-top: 0;
+    background-color:rgba(19, 19, 19);
+}
+
+.Synopsispage h1{
+    text-indent: 20px;
+    margin-top: -10%;
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    z-index: 5;
+    background-color: #ff6600;
+    max-width: 85%;
+    padding: 10px;
+    box-shadow: inset 10px 0px   rgb(125, 29, 0);
+}
+
+.Synopsispage p{
+    margin-top: 100px;
+    text-indent: 80px;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    margin-left: 10%;
+    padding-right: 20%;
+    z-index: 5;
+    color: rgb(255, 255, 255);
+}
+
+.characterpage{
+    margin-top: 0;
+    background-image: url(img/backgroun15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.characterpage h1{
+    position: absolute;
+    top: 5%;
+    text-indent: 20px;
+    margin-left: 100px;
+    font-family: "Lato", sans-serif;
+    font-size: 45px;
+    color: #010101;
+    background-color: #afcdee;
+    max-width: 90%;
+    padding: 10px;
+    box-shadow: inset 20px 0px   #e9e5ff;
+    z-index: 2;
+
+}
+.characterpage p{
+    position: absolute;
+    top: 10%;
+    color: #ffffff;
+    text-indent: 40px;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 50%;
+    background-color: #1b0027;
+    padding: 70px 30px 30px 50px;
+    box-shadow: inset 20px 0px   #140469;
+    z-index: 1;
+}
+.personalr{
+    text-indent: 80px;
+}
+.bit{
+    position: absolute;
+    top: 60%;
+    margin-left: 20%;
+    border-radius: 100px;
+    display: inline;
+    width: 300;
+    height: 300;
+    transition:  0.5s;
+}
+.fillcg{
+    position: absolute;
+    top: 15%;
+    width: 610px;
+    margin-left: 60%;
+    overflow: hidden;
+    transition:  0.5s;
+}
+.fillcg:hover{
+    transform: scale(1.2);
+}
+.bit:hover{
+    transform: translateY(-18px);
+}
+
+.socialpage{
+    margin-top: 0;
+    background-color: rgb(18, 18, 18);
+}
+
+.cotainer-socia{
+    position: relative;
+    width: 80%;
+    height: 90%;
+    max-width: 80%;
+    left: 10%;
+    top: 0;
+}
+.socia-head{
+    display: flex;
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+    border: solid #000000;
+    box-shadow: inset 5px 0px   rgb(72, 0, 255);
+    background-color: rgb(84, 80, 136);
+
+}
+.socia-f{
+    width: 300%;
+    height: 40px;
+    display: flex;
+    padding: 20px;
+}
+.socia-f p{
+    margin-left: 5%;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Common Pixel', sans-serif;
+    position: relative;
+    top: -60%;
+}
+.socia-f div{
+    position: relative;
+    right: 0;
+    width: 1000px;
+    height: 40px;
+    background-color: #000000;
+}
+
+.link-socia{
+    grid-column: 2/span 7;
+    position:absolute;
+    left: -150px;
+    top: 200px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.icon-com{
+    margin-left: 15%;
+    transition:  0.5s;
+}
+.icon-com img{
+        width: 80px;
+        height: 80px;
+        filter: brightness(0) invert(1);
+        cursor: pointer;
+        transition:  0.5s;
+}
+.icon_info{
+    text-align: center;
+    font-size: 22px;
+    color: #ffffff;
+    opacity: 0;
+    transition:  0.5s;
+}
+.icon-com img:hover{
+    transform: translateY(-15px);
+    
+}
+.icon-com:hover .icon_info{
+    opacity: 1;
+}
+footer{
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    height: 15vH;
+    position: absolute;
+    top: 85vh;
+}
+
+
+@media only screen and (max-width:1100px){
+    .logo{
+        margin-left: 5%;
+        width: 74px;
+        height: 74px;
+    }
+    .lihome{
+    top: -11%;
+    left: 0;
+    padding: 20px 10px;
+    }
+    .homepage h1{
+        font-size: 68px;
+        margin-left: 16%;
+        
+    }
+    .homepage p{
+        font-size: 23px;
+        margin-left: 20%;
+    }
+    .dowload{
+        top: 120px;
+        margin-left: 60%;
+        font-size: 45px;
+    }
+    .intopage h2{
+        margin-left: 10%;
+        font-size: 22px;
+        max-width: 80%;
+        text-indent: 80px;
+    }
+    .intopage p{
+        margin-left: 10%;
+        top: 35%;
+        font-size: 25px;
+        max-width: 28%;
+        text-indent: 80px;
+    }
+    .intopage iframe{
+        margin-left: 40%;
+        top: 35%;
+    }
+    .textgameplay{
+        padding: 10px 30px;
+        top: 39%;
+        left: 85%;
+    }
+    .Synopsispage h1{
+        margin-top: 0;
+        margin-left: 8%;
+        font-size: 40px;
+    }
+    .Synopsispage p{
+        margin-top: 90px;
+        text-indent: 75px;
+        font-size: 27px;
+    }
+    .characterpage h1{
+        top: 0;
+        text-indent: 20px;
+        margin-left: 70px;
+        font-size: 40px;
+        max-width: 90%;
+        padding: 8px;
+    }
+    .characterpage p{
+        top: 10%;
+        text-indent: 40px;
+        font-size: 22px;
+        margin-left: 10%;
+        margin-right: 30%;
+        padding: 70px 30px 30px 50px;
+    }
+    .bit{
+        top: 60%;
+        margin-left: 20%;
+        border-radius: 100px;
+        width: 250px;
+        height: 250px;
+    }
+    .fillcg{
+        top: 15%;
+        width: 500px;
+        margin-left: 60%;
+    }
+    .socia-head{
+        left: 0%;
+        width: 100%;
+        height: 80px;    
+    }
+    .socia-f{
+        width: 300%;
+        height: 40px;
+        padding: 20px;
+    }
+    .socia-f p{
+        margin-left: 5%;
+        font-size: 30px;
+        top: -60%;
+    }
+    .socia-f div{
+        right: 0;
+        width: 1000px;
+        height: 40px;
+    }
+    .link-socia{
+        left: -180px;
+        top: 180px;
+        width: 100%;
+        height: 40%;
+    }
+    .icon-com{
+        margin-left: 15%;
+    }
+    .icon-com img{
+            width: 75px;
+            height: 75px;
+    }
+    .icon_info{
+        font-size: 20px;
+    }
+    footer{
+        width: 100%;
+        height: 15vH;
+        top: 75vh;
+    }
+    
+}
+
+
+@media only screen and (max-width:850px){
+    .logo{
+        margin-left: 5%;
+        width: 74px;
+        height: 74px;
+    }
+    .lihome{
+    top: -2%;
+    left: 5%;
+    padding: 20px 10px;
+    }
+    .homepage h1{
+        font-size: 60px;
+        margin-left: 16%;
+        
+    }
+    .homepage p{
+        font-size: 18px;
+        margin-left: 20%;
+    }
+    .dowload{
+        top: 120px;
+        margin-left: 40%;
+        font-size: 40px;
+    }
+    .intopage h2{
+        top: 0;
+        margin-left: 5%;
+        font-size: 20px;
+        max-width: 90%;
+        text-indent: 80px;
+    }
+    .intopage p{
+        margin-left: 5%;
+        top: 75%;
+        font-size: 20px;
+        max-width: 90%;
+        text-indent: 80px;
+    }
+    .intopage iframe{
+        margin-left: 2%;
+        top: 20%;
+        
+    }
+    .textgameplay{
+        padding: 10px 30px;
+        top: 16%;
+        left: 75%;
+    }
+    .Synopsispage h1{
+        text-indent: 20px;
+        margin-top: 0;
+        margin-left: 10%;
+        font-size: 40px;
+    }
+    .Synopsispage p{
+        margin-top: 70px;
+        text-indent: 70px;
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    .characterpage h1{
+        top: -2%;
+        text-indent: 20px;
+        margin-left: 10px;
+        font-size: 30px;
+        max-width: 90%;
+        padding: 8px;
+    }
+    .characterpage p{
+        top: 2%;
+        text-indent: 30px;
+        font-size: 18px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 60px 25px 25px 40px;
+    }
+    .bit{
+        top: 50%;
+        margin-left: 5%;
+        border-radius: 100px;
+        width: 180px;
+        height: 180px;
+    }
+    .fillcg{
+        top: 30%;
+        width: 450px;
+        margin-left: 40%;
+    }
+    .socia-head{
+        left: 0;
+        width: 100%;
+        height: 100px;    
+    }
+    .socia-f{
+        width: 300%;
+        height: 40px;
+        padding: 20px;
+    }
+    .socia-f p{
+        margin-left: 0;
+        font-size: 20px;
+        top: -60%;
+    }
+    .socia-f div{
+        right: 0;
+        width: 1000px;
+        height: 40px;
+    }
+    .link-socia{
+        left: -65px;
+        top: 180px;
+        width: 100%;
+        height: 60%;
+    }
+    .icon-com{
+        margin-left:8%;
+    }
+    .icon-com img{
+            width: 65px;
+            height: 65px;
+    }
+    .icon_info{
+        font-size: 18px;
+    }
+    footer{
+        width: 100%;
+        height: 15vH;
+        top: 75vh;
+    }
+}
